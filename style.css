@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+	--primary-Dark-Cyan: hsl(158, 36%, 37%);
+	--primary-Cream: hsl(30, 38%, 92%);
+	--Neutral-Very-dark-blue: hsl(212, 21%, 14%);
+	--Neutral-Dark-grayishblue: hsl(228, 12%, 48%);
+	--Neutral-White: hsl(0, 0%, 100%);
+}
+
+*, *::after, *::after {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    color: var(--Neutral-Dark-grayishblue);
+	text-align: center;
+	background-color: var(--primary-Cream);
+}
+
+#perfume-pic {
+    margin: 15px auto  -3px;
+    width: 320px;
+    border-radius: 8px 8px 0 0;
+}
+
+.perfume-main-container {
+	display: grid;
+	grid-template-rows: repeat(7,min-content);
+	background-color: var(--Neutral-White);
+	text-align: center;
+	margin: 0 auto;
+	width: 320px;
+	height: auto;
+}
+
+
+.perfume-title {
+    font-size: .6rem;
+	text-align: left;
+	padding: 15px;
+    letter-spacing: 2px;
+}
+
+.perfume-name {ß
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--Neutral-Very-dark-blue);
+    text-align: left;
+    padding: 0px 23px;
+    line-height: .9;
+}
+
+.perfume-details {
+    font-size: .78rem;
+    padding: 15px;
+    text-align: left;
+    margin: 8px 8px 0 8px;
+    line-height: 1.4;
+}
+
+.pefume-price-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+.perfume-new-price {
+    font-family: "Fraunces";
+    text-align: left;
+    padding: 0px 18px 0px 23px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--primary-Dark-Cyan)
+}
+
+.perfume-old-price {
+    font-size: .8rem;
+    text-decoration: line-through;
+}
+
+.perfume-btn-addToCart{
+    width: 80%;
+    font-size: .7rem;
+    color: #fff;
+    background-color: var(--primary-Dark-Cyan);
+    margin: 10px auto 10px;
+    padding: 10px 0 10px;
+    border-radius: 7px;
+}
