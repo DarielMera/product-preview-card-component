@@ -10,29 +10,24 @@
     <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Product preview card component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
 
   <body>
 
+<div class="perfume-main-container">
+    <img id="perfume-pic-mobile" src="images/image-product-mobile.jpg" alt="perfume-picture">
+    <img id="perfume-pic-desktop" src="images/image-product-desktop.jpg" alt="perfume-picture">
 
-    <img id="perfume-pic" src="images/image-product-mobile.jpg" alt="perfume-picture">
-
-    <div class="perfume-main-container">
+    <div class="perfume-description-container">
       <div class="perfume-title">PERFUME</div>
-      <div class="perfume-name">Gabrielle Essence</div><div class="perfume-name">Eau De Parfum</div>
-      <p class="perfume-details">A floral, solar and voluptuous <br>interpretation composed by Olivier <br>
+      <div class="perfume-name-mobile">Gabrielle Essence</div><div class="perfume-name-mobile">Eau De Parfum</div>
+      <div class="perfume-name-desktop">Gabrielle</div> <div class="perfume-name-desktop">Essence Eau</div><div class="perfume-name-desktop"> De Parfum</div>
+      <p class="perfume-details-mobile">A floral, solar and voluptuous <br>interpretation composed by Olivier <br>
         Polge, Perfumer-Creator for the House of <br>
+         CHANEL.
+      </p>
+      <p class="perfume-details-desktop">A floral, solar and voluptuous <br>interpretation composed by <br> Olivier 
+        Polge, Perfumer-Creator <br> for the House of 
          CHANEL.
       </p>
       <div class="pefume-price-container">
@@ -41,14 +36,8 @@
       </div>
 
       <div class="perfume-btn-addToCart">Add to Cart</div>
-
-
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Dariel Mera</a>.
-      </div>
     </div>
-
+  </div>
   </body>
 
 </html>
